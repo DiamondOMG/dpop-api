@@ -16,7 +16,7 @@ const Display = () => {
 	}, []);
 
 	return (
-		<div>
+		<div className="bg-red-500">
 			<h1>DPoP Data</h1>
 			<pre>{JSON.stringify(dpopData, null, 2)}</pre>
 		</div>
